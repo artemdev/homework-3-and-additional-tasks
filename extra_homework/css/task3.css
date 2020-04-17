@@ -21,7 +21,6 @@ p.tags {
 .container {
   width: 960px;
   margin: 0 auto;
-  padding: 20px;
   box-sizing: border-box;
   border: 1px solid #c0c0c0;
   border-radius: 2px;
@@ -35,9 +34,8 @@ p.tags {
 }
 
 .wrap {
-  display: block;
-  width: 49%;
-  margin: 50px;
+  display: inline-block;
+  width: 475px;
 }
 
 .container img {
