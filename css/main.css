@@ -69,6 +69,7 @@ nav ul li a:hover {
 }
 
 .tags {
+  font-family: "Ubuntu", sans-serif;
   text-transform: uppercase;
   color: #b4ad9e;
   margin-bottom: 15px;
