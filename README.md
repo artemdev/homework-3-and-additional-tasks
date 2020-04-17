@@ -1,4 +1,4 @@
-<h1>My HTML / CSS Homework#3</h1>
+<h1>HTML / CSS Homework#3</h1>
 I made HTML version of the picture
 
 <img src="img/task.jpg" width="400">
