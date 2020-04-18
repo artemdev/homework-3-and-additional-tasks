@@ -15,7 +15,9 @@ a {
 }
 
 img {
-  margin-bottom: 30px;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 ul li {
   vertical-align: top;
@@ -28,66 +30,80 @@ h2 {
 }
 
 nav {
-  margin: 0 auto;
-  width: 736px;
+  text-align: center;
 }
 
 p {
   font-size: 14px;
 }
 nav ul {
-  display: inline-block;
   word-spacing: -0.36em;
 }
 nav ul li {
+  margin-bottom: 100px;
+  margin-top: 77px;
   display: inline-block;
   text-transform: uppercase;
-  margin: 0 60px;
+
+  margin-right: 100px;
+
   text-align: center;
 }
+nav ul li:last-child {
+  margin-right: 0;
+}
+
 nav ul li a:hover {
   color: #03a9f4;
 }
 .container {
-  padding-top: 77px;
   margin: 0 auto;
-  width: 1080px;
+  width: 900px;
 }
 
 .content {
-  width: 1080px;
+  width: 900px;
 }
 .content ul {
   word-spacing: -0.36em;
   text-align: left;
 }
+.content ul li:nth-child(odd) {
+  margin-right: 60px;
+}
+
 .content ul li {
-  padding: 60px;
+  margin-bottom: 120px;
   width: 420px;
   display: inline-block;
   word-spacing: normal;
 }
-
+.content ul li:nth-last-child(-n + 2) {
+  margin-bottom: 55px;
+}
 .tags {
   font-family: "Ubuntu", sans-serif;
   text-transform: uppercase;
   color: #b4ad9e;
-  margin-bottom: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .submit {
   width: 164px;
-  margin: 0 auto;
+  margin: -30px auto 0 auto;
 }
 .button {
+  font-size: 20px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+  padding: 22px 34px;
+  text-align: center;
+  display: block;
   border: 1px solid #626262;
   background-color: white;
-  font-size: 20px;
-  line-height: 24px;
-  height: 60px;
   color: #626262;
   cursor: pointer;
-  width: 100%;
 }
 
 button:hover {
